@@ -34,5 +34,10 @@ def turn(board)
     turn(board)
   end
 end
+def play (board)
+until turn == 9
+  gets.chomp (board)
 
+end
+end
 # Define your play method below
